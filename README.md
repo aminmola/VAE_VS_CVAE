@@ -12,7 +12,7 @@ A Variational Autoencoder (VAE) is a generative model that learns a probability 
 * Loss Function: Combines the reconstruction loss (difference between input and output) with a KL divergence term (regularization that forces the latent space to follow a Gaussian distribution).
 
   
-![alt text](<Plots/VAE.png>)
+![alt text](<VAE.png>)
 
 
 2. Conditional Variational Autoencoders (CVAE)
