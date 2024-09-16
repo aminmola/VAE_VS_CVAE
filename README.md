@@ -10,6 +10,8 @@ A Variational Autoencoder (VAE) is a generative model that learns a probability 
 * Latent Space: The latent variables follow a Gaussian distribution. The encoder predicts the mean (μ) and standard deviation (σ) of this distribution.
 * Reparameterization Trick: Used to allow backpropagation through the stochastic sampling process by parameterizing the sampling with a differentiable function.
 * Loss Function: Combines the reconstruction loss (difference between input and output) with a KL divergence term (regularization that forces the latent space to follow a Gaussian distribution).
+
+  
 ![alt text](<Plots/VAE.png>)
 
 
